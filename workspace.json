@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "bar": "apps/bar",
+    "bar-e2e": "apps/bar-e2e",
+    "plug": "libs/plug",
+    "plug-e2e": "apps/plug-e2e"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "plug",
+  "version": "0.0.1",
+  "generators": {
+    "plug": {
+      "factory": "./src/generators/plug/generator",
+      "schema": "./src/generators/plug/schema.json",
+      "description": "plug generator"
+    }
+  }
+}
